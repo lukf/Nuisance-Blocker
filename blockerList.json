@@ -1,0 +1,31 @@
+[
+      {
+        "action": {
+            "selector": "div[class^=\"banner banner-950\"]",
+            "type": "css-display-none"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    },
+ 
+     {
+        "action": {
+            "selector": "section[class^=\"panel\"]",
+            "type": "css-display-none"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    },
+ 
+     {
+        "action": {
+            "selector": "iframe[scrolling^=\"no\"]",
+            "type": "css-display-none"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }
+]
